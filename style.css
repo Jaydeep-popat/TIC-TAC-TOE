@@ -97,3 +97,171 @@ body{
     box-shadow: 3px 3px 5px rgb(103, 221, 39),-3px -3px 5px rgb(103, 221, 39);    
     transition: ease-in-out 0.1s;
 }
+
+/* ===== RESPONSIVE DESIGN FOR MOBILE DEVICES ===== */
+
+/* Tablets and smaller devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .heading{
+        height: 12vh;
+        font-size: 3vh;
+        line-height: 12vh;
+    }
+    
+    #mode{
+        width: 25vw;
+        height: 6vh;
+        font-size: 2.5vh;
+        top: 3vh;
+        right: 3vw;
+    }
+    
+    .main{
+        width: 60vw;
+        height: 60vw;
+        margin-top: 3vh;
+    }
+    
+    .box{
+        height: 18vw;
+        width: 18vw;
+        font-size: 12vw;
+    }
+    
+    #btn{
+        width: 35vw;
+        height: 7vh;
+        font-size: 3.5vh;
+    }
+}
+
+/* Mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .heading{
+        height: 10vh;
+        font-size: 2.5vh;
+        line-height: 10vh;
+        padding: 0 5px;
+    }
+    
+    #mode{
+        width: 30vw;
+        height: 5vh;
+        font-size: 2vh;
+        top: 2.5vh;
+        right: 2vw;
+        border-radius: 1vh;
+    }
+    
+    .container{
+        height: auto;
+        min-height: 65vh;
+        padding: 2vh 0;
+    }
+    
+    .main{
+        width: 90vw;
+        height: 90vw;
+        max-width: 400px;
+        max-height: 400px;
+        margin-top: 2vh;
+    }
+    
+    .box{
+        height: 28vw;
+        width: 28vw;
+        max-width: 120px;
+        max-height: 120px;
+        font-size: 18vw;
+        border-radius: 2vw;
+        box-shadow: 0.4vh 0.4vh 0.4vh inset#0c0c0c84,-0.4vh -0.4vh 0.4vh #1512124e;
+    }
+    
+    .footer{
+        height: 15vh;
+    }
+    
+    #btn{
+        width: 45vw;
+        height: 6vh;
+        font-size: 3vh;
+        margin-top: 2vh;
+        border-radius: 1.5vh;
+    }
+}
+
+/* Small mobile devices (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .heading{
+        height: 9vh;
+        font-size: 2.2vh;
+        line-height: 9vh;
+    }
+    
+    #mode{
+        width: 32vw;
+        height: 4.5vh;
+        font-size: 1.8vh;
+        top: 2.2vh;
+    }
+    
+    .main{
+        width: 92vw;
+        height: 92vw;
+    }
+    
+    .box{
+        height: 29vw;
+        width: 29vw;
+        font-size: 16vw;
+    }
+    
+    #btn{
+        width: 50vw;
+        height: 5.5vh;
+        font-size: 2.8vh;
+    }
+}
+
+/* Landscape mode for mobile devices */
+@media screen and (max-height: 600px) and (orientation: landscape) {
+    .heading{
+        height: 15vh;
+        font-size: 3vh;
+        line-height: 15vh;
+    }
+    
+    #mode{
+        width: 20vw;
+        height: 10vh;
+        font-size: 2.5vh;
+        top: 2.5vh;
+    }
+    
+    .container{
+        height: auto;
+        padding: 2vh 0;
+    }
+    
+    .main{
+        width: 50vh;
+        height: 50vh;
+        margin-top: 2vh;
+    }
+    
+    .box{
+        height: 15vh;
+        width: 15vh;
+        font-size: 10vh;
+    }
+    
+    .footer{
+        height: 18vh;
+    }
+    
+    #btn{
+        width: 25vw;
+        height: 10vh;
+        font-size: 3.5vh;
+    }
+}
